@@ -11,9 +11,9 @@ const Navbar = () => {
         <Stack direction='row' gap='40px' fontSize='24px' alignItems='flex-end'>
           <Link to='/' style={{textDecoration:'none', color: '#3A1212', borderBottom:'3px solid #FF2625'}}>Home</Link>
           <a href='#about' style={{textDecoration:'none', color: '#3A1212'}}>About</a>
-          <a href='#exercise' style={{textDecoration:'none', color: '#3A1212'}}>Contact</a>
+          <a href='#contact' style={{textDecoration:'none', color: '#3A1212'}}>Contact</a>
           <a href='#portfolio' style={{textDecoration:'none', color: '#3A1212'}}>Portfolio</a>
-          <a href='#exercise' style={{textDecoration:'none', color: '#3A1212'}}>Resume</a>
+          <a href='#resume' style={{textDecoration:'none', color: '#3A1212'}}>Resume</a>
         </Stack>
     </Stack>
   )
